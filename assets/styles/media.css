@@ -1,0 +1,112 @@
+/* info frames */
+@media screen and (orientation: portrait) 
+{
+	.leftGradient
+	{
+		background: linear-gradient(0deg, rgba(22,22,22,0.8) 0%, rgba(22,22,22,0.8) 100%);
+	}
+	.rightGradient
+	{
+		background: linear-gradient(0deg, rgba(22,22,22,0.8) 0%, rgba(22,22,22,0.8) 100%);
+	}
+	.info
+	{
+		height: 75vh;
+	}
+	#TmmIntro
+	{
+		height: 100vh;
+	}
+	.info .arrow
+	{
+		margin-bottom: 5vh;
+	}
+	.info .infoTextFrame
+	{
+		width: 100vw;
+	}
+	.info .infoFrame
+	{
+		align-items: flex-end;
+	}
+	.info .infoTextFrame .infoText
+	{
+		margin-bottom: 20vh;
+	}
+	.info .infoButtons .buttonA
+	{
+		font-size: 5vw;
+	}
+	.info .infoFrame .infoTextFrame h4
+	{
+		font-size: 4vw;
+	}
+	.info .infoFrame .infoTextFrame h1
+	{
+		font-size: 6vw;
+	}
+	.info .infoTextFrame.right
+	{
+		position: relative;;
+		left: 0;
+		margin-left: 0px;
+	}
+	/* header */
+	.header a
+	{
+		font-size: 4.75vw;
+	}
+	.mods
+	{
+		padding: 10px;
+	}
+	/* modsSection*/
+	.mods .container
+	{
+		grid-gap: 40px;
+		width: fit-content;
+		grid-template-columns: repeat(2, minmax(20vw, 1fr));
+	}
+	.mods .container .card
+	{
+		height: 34vw;
+		width: 34vw;
+		margin-bottom: 6vw;
+		border-radius: 1vw;
+	}
+	.mods .container .card .content
+	{
+		height: 34vw;
+		width: 34vw;
+		border-radius: 1vw;
+		border: #500000 solid 0.5vw;
+	}
+	.mods .container .card:hover .content
+	{
+		border: #cc0000 solid 0.5vw;
+	}
+	.mods .container a
+	{
+		color: #acacac;
+		font-size: 4vw;
+
+		text-decoration: none;
+	}
+	.mods h1
+	{
+		color: aliceblue;
+		font-size: 4vw;
+		margin-top: 6px;
+		text-decoration: none;
+	}
+	.mods .container img
+	{
+		width: 30vw;
+		opacity: 0.3;
+		height: 30vw;
+	}
+}
+
+/* @media screen and (orientation: portrait)
+{
+} */

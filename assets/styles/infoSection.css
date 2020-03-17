@@ -1,0 +1,175 @@
+	.info
+	{
+		display: flex;
+		position: relative;
+		align-items: center;
+		height: 100vh;
+		/* width: 100vw; */
+		padding: 0;
+		margin: 0;
+		/* border-bottom: #aa0000 solid 2px; */
+	}
+	.info .arrow
+	{
+		border: solid aliceblue;
+		border-width: 0 2px 2px 0;
+		display: inline-block;
+		padding: 2.5vh;
+		position: absolute;
+    left:50%;
+		bottom: 3vw;
+	}
+	.info .arrow.Down
+	{
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+	}
+	.info .arrow.Up
+	{
+		transform: rotate(-135deg);
+		-webkit-transform: rotate(-135deg);
+	}
+	.leftGradient
+	{
+		background: linear-gradient(90deg, rgba(22,22,22,0.8) 0%, rgba(22,22,22,0.8) 40%, rgba(255,255,255,0) 100%);
+	}
+	.rightGradient
+	{
+		background: linear-gradient(270deg, rgba(22,22,22,0.8) 0%, rgba(22,22,22,0.8) 40%, rgba(255,255,255,0) 100%);
+	}
+	.info .infoFrame
+	{
+		display: flex;
+    align-items: center;
+		width: 100%;
+		height: 100%;
+	}
+	.info .infoFrame .infoTextFrame .infoText h4
+	{
+		margin: 0.5vh;
+		color: #838383;
+	}
+	.info .infoFrame .infoTextFrame .infoText h1
+	{
+		margin: 0;
+		color: aliceblue;
+		border-bottom: 4px solid aliceblue;
+		display: inline-block;
+	}
+	.info a.author
+	{
+		color: #aa0000;
+		display: inline-block;
+		text-decoration: none;
+	}
+	.info a.author:hover
+	{
+		color: #e00000;
+		text-decoration: none;
+	}
+	.info .infoTextFrame
+	{
+		width: 50vw;
+		font-size: 5vh;
+		align-items: center;
+		justify-content: center;
+		display: flex;
+		margin-left: 20px;
+	}
+	.info .infoButtons
+	{
+		margin-top: 40px;
+	}
+	.info .infoTextFrame.right
+	{
+		position: absolute;
+		left: 50%;
+		margin-left: -20px;
+	}
+	.info:nth-of-type(1)
+	{
+		background: url('../images/InnerCoreMCBG.png');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-y: -1px;
+		background-position: center;
+		border-bottom: none;
+		background-attachment: fixed;
+	}
+	.info:nth-of-type(3)
+	{
+		background: url('../images/ValkyrieModsBG.png');
+		/* border-top: #420000 solid 2px; */
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-y: -1px;
+		background-position: center;
+		background-attachment: fixed;
+	}
+	.info:nth-of-type(4)
+	{
+		background: url('../images/ActuallyAdditionsBG.png');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-y: -1px;
+		background-position: center;
+		background-attachment: fixed;
+	}
+	.info:nth-of-type(5)
+	{
+		background: url('../images/UIEditorBG.png');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-y: -1px;
+		background-position: center;
+		background-attachment: fixed;
+	}
+	.info:nth-of-type(6)
+	{
+		background: url('../images/ValkyrieModsBG.png');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-y: -1px;
+		background-position: center;
+		background-attachment: fixed;
+	}
+	.info:nth-of-type(7)
+	{
+		background: url('../images/ModifiedRPBG.png');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-y: -1px;
+		background-position: center;
+		background-attachment: fixed;
+	}
+	.info:nth-of-type(8)
+	{
+		background: url('../images/DivineFavorBG.png');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position-y: -1px;
+		background-position: center;
+		background-attachment: fixed;
+	}
+	

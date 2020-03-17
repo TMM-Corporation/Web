@@ -1,0 +1,51 @@
+
+	.header
+	{
+		display: block;
+		margin: 20px 10px 20px 10px;
+		padding: 8px;
+		background: #202020;
+		border-radius: 6px;
+	}
+	.header a
+	{
+		text-decoration: none;
+		display: inline-block;
+		height: fit-content;
+		padding: 6px;
+		margin-right: 8px;
+		border: #500000 solid 2px;
+		border-radius: 2px;
+		color: #acacac;
+		font-size: 2.6vw;
+	}
+	.header a:nth-child(1)
+	{
+		margin-left: 20px;
+		margin-right: 0px;
+	}
+	.header a:not(:nth-child(1))
+	{
+		display: flex;
+		float: right;
+		border: #20202000 solid 2px;
+	}
+	.header a:hover
+	{
+		background: #500000;
+		color: aliceblue;
+		border: #500000 solid 2px;
+		border-radius: 2px;
+	}
+	.sticky {
+		position: -webkit-sticky;
+		top: 0px;
+		opacity: 0.8;
+		position: sticky;
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+		background: #303030;
+		width: -webkit-fill-available;
+		border-radius: 0;
+		z-index: 1;
+		margin: 20px 0 20px 0;
+	}
