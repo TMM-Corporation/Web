@@ -1,239 +1,77 @@
-<!DOCTYPE html>
-<html>
+<html lang="ru">
 
 <head>
-	<meta charset="utf-8">
-	<title>TooManyMods</title>
-	<!-- <link rel="stylesheet" href="assets/styles/loadbar.css"> -->
-	<link rel="stylesheet" href="assets/styles/header.css">
-	<link rel="stylesheet" href="assets/styles/style.css">
-	<link rel="stylesheet" href="assets/styles/infoSection.css">
-	<link rel="stylesheet" href="assets/styles/modsSection.css">
-	<link rel="stylesheet" href="assets/styles/media.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+		integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="./assets/styles/main.css">
+	<link rel="stylesheet" href="./assets/styles/font.css">
+	<title>ToxesFoxes / Web</title>
 </head>
 
 <body>
-	<!-- <div class="loading_page visible" id="loading_page">
-		<script src="assets/loader.js"></script>
-		<div class="loader">Loading...</div>
-	</div> -->
-	<div class="page hidden" id="page">
-	<div id="top"></div>
-		<section class="info" id="TmmIntro">
-			<div class="infoFrame leftGradient" >
-				<div class="infoTextFrame">
-					<div class="infoText">
-						<h1>TooManyMods</h1>
-						<div class="bottomTextLine"></div>
-						<h4>Группа разработчика модификаций для InnerCore</h4>
+	<header class="bg-wool-dark unselectable">
+		<a href="#first">TMM</a>
+	</header>
+	<div class="page_content" id="first">
+		<div class="bg-wool-dark full_height">
+			<div class="main_content bg-home-hero">
+				<div class="title_container">
+					<h1 class="title">TooManyMods</h1>
+					<h3>Портирование модификаций с ПК на Android <br> Под движок
+						<a target="_blank" class="outer_link" href="//icmods.mineprogramming.org">InnerCore 2.0</a></h3>
+					<div class="bottom_buttons">
+						<a target="_blank" class="mc_btn_green" href="//vk.com/tmm_corporation">Вконтакте</a>
+						<a target="_blank" class="mc_btn_green" href="//icmods.mineprogramming.org/search?author=1984">ICMods</a>
+						<a target="_blank" class="mc_btn_green" href="//github.com/toxesfoxes">Github</a>
 					</div>
 				</div>
 			</div>
-			<a class="arrow Down" href="#modS"></a>
-		</section>
-		<div id="modS"></div>
-		<div class="header" id="header">
-			<a href="#TmmIntro">TooManyMods</a>
-			<a href="#footer">Ссылки</a>
-			<a href="#modS">Модификации</a>
 		</div>
-		<section class="mods" id="mods">
-			<h1>Модификации</h1>
-
-			<div class="container">
-				<div class="card">
-					<a href="#ETPE">
-						<div class="content">
-							<img class="modIcon" src="./assets/images/EnvTech.png">
-						</div>
-						Environmental Tech PE
-					</a>
+		<div class="bg-wool-light">
+			<div class="trans-top-dark woolbgTop"></div>
+			<div class="content_list">
+				<div class="content_row">
+					<div class="content_column_left">
+						<img src="./assets/images/modified_rp.jpg" alt="ModifiedRP">
+					</div>
+					<div class="content_column_right">
+						<h2>ModifiedRP</h2>
+						<h3>Ресурспак, собранный из специально отобранных ресурспаков. Специально для InnerCore.</h3>
+						<a target="_blank" href="//icmods.mineprogramming.org/mod?id=426">Скачать c ICMods</a>
+					</div>
 				</div>
-
-				<div class="card">
-					<a href="#ACTAD">
-						<div class="content">
-							<img class="modIcon" src="./assets/images/ActuallyAdditions.png">
-						</div>
-						ActuallyAdditions
-					</a>
+				
+				<div class="content_row reversed">
+					<div class="content_column_right">
+						<h2>UIEditor</h2>
+						<h3>Утилита для разработчиков модов. Позволяет создавать и изменять интерфейсы InnerCore.</h3>
+						<a target="_blank" href="//icmods.mineprogramming.org/mod?id=406">Скачать c ICMods</a>
+					</div>
+					<div class="content_column_left">
+						<img src="./assets/images/ui_editor.jpg" alt="ModifiedRP">
+					</div>
 				</div>
-
-				<!-- <div class="card"> -->
-				<!-- <div class="content"> -->
-				<!-- <img src=""> -->
-				<!-- </div> -->
-				<!-- <a href="https://github.com/ToxesFoxes/Environmental_tech_pe">ADB Mod Pusher</a> -->
-				<!-- </div> -->
-
-				<div class="card">
-					<a href="#UIEditor">
-						<div class="content">
-							<img class="modIcon" src="./assets/images/UIEditor.png">
-						</div>
-						UIEditor
-					</a>
-				</div>
-
-				<div class="card">
-					<a href="#ValMods">
-						<div class="content">
-							<img class="modIcon" src="./assets/images/ValkyrieMods.png">
-						</div>
-						ValkyryeMods
-					</a>
-				</div>
-
-				<!-- <div class="card"> -->
-				<!-- <div class="content"> -->
-				<!-- <img src=""> -->
-				<!-- </div> -->
-				<!-- <a href="https://github.com/ToxesFoxes/ModelConverter">Model Converter</a> -->
-				<!-- </div> -->
-
-				<div class="card">
-					<a href="#MRP">
-						<div class="content">
-							<img class="modIcon" src="./assets/images/ModifiedRP.png">
-						</div>
-						ModifiedRP
-					</a>
-				</div>
-
-				<div class="card">
-					<a href="#DF">
-						<div class="content">
-							<img class="modIcon" src="./assets/images/DivineFavor.png">
-						</div>
-						DivineFavor
-					</a>
-				</div>
-			</div>
-
-		</section>
-
-		<section class="info" id="ETPE">
-			<div class="infoFrame leftGradient">
-				<div class="infoTextFrame">
-					<div class="infoText">
-						<h1>Environmental Tech Pe</h1>
-						<div class="bottomTextLine"></div>
-						<h4>Мод был создан <a class="author" href="https://www.curseforge.com/members/valkyrieofnight">ValkyrieOfNight</a></h4>
-						<h4>И был портирован на InnerCore</h4>
-						<div class="infoButtons">
-							<a class="buttonA" href="https://icmods.mineprogramming.org/mod?id=405">Скачать мод</a>
-							<a class="buttonA" href="https://github.com/ToxesFoxes/Environmental_tech_pe">Посмотреть исходный код</a>
-						</div>
+				<div class="content_row">
+					<div class="content_column_left">
+						<img src="./assets/images/valkyrie_mods.jpg" alt="ModifiedRP">
+					</div>
+					<div class="content_column_right">
+						<h2>ValkyrieMods</h2>
+						<h3>Несколько модификаций от <a id="author_link" href="//twitter.com/ValkyrieofNight">ValkyrieOfNight</a> объединённых в один мод.</h3>
+						<a target="_blank" id="icmod_link" href="//icmods.mineprogramming.org/mod?id=405">Скачать c ICMods</a>
 					</div>
 				</div>
 			</div>
-			<a class="arrow Down" href="#ACTAD"></a>
-		</section>
-		<!-- <section></section> -->
-		<section class="info" id="ACTAD">
-			<div class="infoFrame rightGradient">
-				<div class="infoTextFrame right">
-					<div class="infoText">
-						<h1>Actually Additions</h1>
-						<div class="bottomTextLine"></div>
-						<h4>Мод был создан <a class="author" href="https://www.curseforge.com/members/ellpeck">Ellpeck</a></h4>
-						<h4>И был портирован на InnerCore</h4>
-						<div class="infoButtons">
-							<!-- <a class="buttonA" href="">Скачать мод</a> -->
-							<a class="buttonA" href="https://github.com/ToxesFoxes/ActuallyAdditions">Посмотреть исходный код</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<a class="arrow Down" href="#UIEditor"></a>
-		</section>
-		<!-- <section></section> -->
-		<section class="info" id="UIEditor">
-			<div class="infoFrame leftGradient">
-				<div class="infoTextFrame">
-					<div class="infoText">
-						<h1>UIEditor</h1>
-						<div class="bottomTextLine"></div>
-						<h4>Мод был создан группой <a class="author" href="icmods.mineprogramming.org/search?author=1984">TooManyMods</a></h4>
-						<h4>Мощный редактор Интерфейсов со всеми нужными инструментами</h4>
-						<h4>Специально для InnerCore</h4>
-						<div class="infoButtons">
-							<a class="buttonA" href="https://icmods.mineprogramming.org/mod?id=406">Скачать мод</a>
-							<a class="buttonA" href="https://github.com/ToxesFoxes/UIEditor">Посмотреть исходный код</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<a class="arrow Down" href="#ValMods"></a>
-		</section>
-		<!-- <section></section> -->
-		<section class="info" id="ValMods">
-			<div class="infoFrame rightGradient">
-				<div class="infoTextFrame right">
-					<div class="infoText">
-						<h1>ValkyrieMods</h1>
-						<div class="bottomTextLine"></div>
-						<h4>Моды были созданы <a class="author" href="https://www.curseforge.com/members/valkyrieofnight">ValkyrieOfNight</a></h4>
-						<h4>В эту сборку из модов входят такие моды как: Environmental Tech, ET Lunar, Simple Generators, Environmental Materials</h4>
-						<h4>И были портированы на InnerCore</h4>
-						<div class="infoButtons">
-							<a class="buttonA" href="https://icmods.mineprogramming.org/mod?id=405">Скачать мод</a>
-							<a class="buttonA" href="https://github.com/ToxesFoxes/ValkyrieMods">Посмотреть исходный код</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<a class="arrow Down" href="#MRP"></a>
-		</section>
-		<!-- <section></section> -->
-		<section class="info" id="MRP">
-			<div class="infoFrame leftGradient">
-				<div class="infoTextFrame">
-					<div class="infoText">
-						<h1>ModifiedRP</h1>
-						<div class="bottomTextLine"></div>
-						<h4>Мод-текстурпак был создан группой <a class="author" href="icmods.mineprogramming.org/search?author=1984">TooManyMods</a></h4>
-						<h4>Специально для InnerCore</h4>
-						<div class="infoButtons">
-							<a class="buttonA" href="https://icmods.mineprogramming.org/mod?id=426">Скачать мод</a>
-							<a class="buttonA" href="https://github.com/ToxesFoxes/ModifiedRP">Посмотреть исходный код</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<a class="arrow Down" href="#DF"></a>
-		</section>
-		<!-- <section></section> -->
-		<section class="info" id="DF">
-			<div class="infoFrame rightGradient">
-				<div class="infoTextFrame right">
-					<div class="infoText">
-						<h1>DivineFavor</h1>
-						<div class="bottomTextLine"></div>
-						<h4>Мод был создан <a class="author" href="https://www.curseforge.com/members/aurocosh">aurocosh</a></h4>
-						<h4>И был портирован на InnerCore</h4>
-						<div class="infoButtons">
-							<a class="buttonA" href="https://icmods.mineprogramming.org/mod?id=420">Скачать мод</a>
-							<a class="buttonA" href="https://github.com/ToxesFoxes/DivineFavor">Посмотреть исходный код</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<a class="arrow Up" href="#TmmIntro"></a>
-		</section>
-		<!-- <section></section> -->
-		<section class="footer" id="footer">
-			<h1>Ссылки</h1>
-			<div class="links">
-				<a href="https://vk.com/tmm_corporation">Группа Вконтакте</a>
-				<a href="https://github.com/ToxesFoxes">Исходные коды на Github</a>
-				<a href="https://icmods.mineprogramming.org/search?author=1984">Автор в МодБраузере</a>
-			</div>
-		</section>
-	</divid>
-	<!-- <h1 id="text" class="sticky" style="position: initial;"></h1> -->
+			<div class="trans-bottom-dark woolbgBot"></div>
+			<div class="bg-wool-dark woolbgBot"></div>
+		</div>
+	</div>
+	<footer>
 
+	</footer>
 </body>
-<script src="assets/main.js"></script>
+<script src="./assets/scripts/main.js"></script>
+
 </html>
