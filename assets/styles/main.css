@@ -259,7 +259,7 @@ div.bg-wool-light {
 .content_list h2,
 .content_list a {
   font-family: 'minecraft_rusregular';
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  image-rendering: pixelated;
 }
 .content_list a {
   margin-top: 16px;
