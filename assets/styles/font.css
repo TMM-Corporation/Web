@@ -376,3 +376,30 @@
   src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v17/mem5YaGs126MiZpBA-UNirkOUuhp.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+@font-face {
+	font-family:'Calluna';
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'minecraft_rusregular';
+    src: url('./../fonts/minecraft.eot');
+    src: url('./../fonts/minecraft.eot?#iefix') format('embedded-opentype'),
+         url('./../fonts/minecraft.woff2') format('woff2'),
+         url('./../fonts/minecraft.woff') format('woff'),
+         url('./../fonts/minecraft.ttf') format('truetype'),
+         url('./../fonts/minecraft.svg#minecraft_rusregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'mojangregular';
+    src: url('./../fonts/mojang.eot');
+    src: url('./../fonts/mojang.eot?#iefix') format('embedded-opentype'),
+         url('./../fonts/mojang.woff2') format('woff2'),
+         url('./../fonts/mojang.woff') format('woff'),
+         url('./../fonts/mojang.ttf') format('truetype'),
+         url('./../fonts/mojang.svg#mojangregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
