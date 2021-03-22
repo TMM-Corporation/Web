@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 html {
-  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   background: #00001c;
@@ -201,7 +201,6 @@ div.bg-wool-light {
     transition: all 300ms;
     width: 100vw;
     top: 0;
-    max-height: calc(100% - 130px);
   }
   .main_content .title_container {
     transition: all 300ms;
